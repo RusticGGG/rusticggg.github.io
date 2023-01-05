@@ -1,2 +1,9 @@
-#### this is my personal website
-#### im learning html so overtime I will put more on this website
+### This is my personal website
+I am only a beginner to html so when Iearn more I will add it to this website
+
+------------
+
+
+#### Features
+- Displayed Discord
+- Social Links
