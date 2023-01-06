@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
         html {
             background: url(https://i.ytimg.com/vi/JquobII5VjA/maxresdefault.jpg) repeat;
@@ -43,8 +47,57 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-    </style>
-    
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: gray;
+  font-family: verdana;
+}
+
+.time-left {
+  float: left;
+  color: black;
+}
+</style>
 <body>
 <center>
 
@@ -54,7 +107,7 @@ a:active {
 <p style="color:orange;font-family:verdana;">- RusticGGG</p>
 <br>
 <h1 style="color:white;font-family:verdana;">Info</h1>
-<p style="color:orange;font-family:verdana;">! RusticGGG#0001</p>
+<p style="color:orange;font-family:verdana;">Discord: ! RusticGGG#0001</p>
 <br>
 <h1 style="color:white;font-family:verdana;">Links</h1>
 <a href="https://www.youtube.com/@RusticGGG">YouTube</a>
@@ -65,3 +118,15 @@ a:active {
 
 </center>
 </body></html>
+<body>
+
+<h2 style="color:white;font-family:verdana;">Status</h2>
+
+<div class="container">
+  <img src="https://media.tenor.com/VVl5r7Hk91IAAAAd/nataon-dimden.gif" alt="Avatar" style="width:100%;">
+  <p style="font-family:verdana;">I just added this status system</p>
+  <span class="time-right">01/06/2023 13:47</span>
+</div>
+
+</body>
+</html>
